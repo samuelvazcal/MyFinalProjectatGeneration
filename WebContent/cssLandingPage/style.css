@@ -1,0 +1,146 @@
+.section--full-width
+{
+max-width: 112;
+padding-left: 2rem;
+padding-right:2rem;
+margin-left: auto;
+margin-right: auto;
+}
+.section__wrapper
+{
+	max-width: 112;
+	padding-left: 2rem;
+	padding-right:2rem;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.title
+{
+max-width: 112;
+padding-left: 2rem;
+padding-right: 2rem;
+margin-left: auto;
+margin-right: auto;		
+}
+.title-ui
+{
+max-width: 112;
+padding-left: 2rem;
+padding-right:2rem;
+margin-left: auto;
+margin-right: auto;	
+}
+.title-ui
+{
+	margin-bottom: 100px;
+	width:100%;
+	margin-top: 55px;
+}
+.title--bold
+{
+	font-weight: 500;
+}
+.title--center
+{
+	text-align: center;
+}
+.title--mixed-case
+{
+	text-transform: none;
+}
+.color-white
+{
+	color:white;
+}
+#atrius
+{
+text-align: center;
+padding: 150px 20px;
+}
+h1,div
+{
+	background:transparent;
+	border-width: 0px;
+	border-style: initial;
+	border-color: initial;
+	border-image: initial;
+	margin: 0px;
+	outline: 0px;
+	padding: 0px;
+}
+div
+{
+display: block;
+}
+h1
+{
+	font: 300 3.4rem/4.3rem "museo-slab","source-han-sans-simplified-c","Source Sans Pro",arial,helvetica,sans-serif;
+	letter-spacing: .2rem;
+	margin-bottom: 4.9rem;	
+}
+.background-video___container
+{
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	left: 0px;
+	top: 0px;	
+}
+.background-video-ui
+{
+	margin-bottom: 0;
+	width: 100%;
+	position: relative;
+	height: 0;	
+}
+.video
+{
+	object-fit: contain;
+}
+#about
+{
+	padding: 20px 20px;
+	margin-top: 25%;
+}
+.modal-body
+{
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+	padding: 2rem;
+}
+.navbar
+{
+	background-color: #24274a;	
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: rgba(255,255,255,255);
+}
+.main {
+	padding: 16px;
+	margin-top: 30px;
+	height: 1500px; /* Used in this example to enable scrolling */
+  }
+  .bg-dark {
+	background-color: #24274a !important;
+	.centrado{
+		margin:50px auto;
+		display:block;
+		}
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	padding-top: 150px;
+}
+
+.lead
+{
+	text-align: justify;
+}
+.team {
+	
+	width: 100%;
+}

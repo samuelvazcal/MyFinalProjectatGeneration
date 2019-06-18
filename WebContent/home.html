@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atrius Web Application</title>
+    <link rel="stylesheet" href="cssLandingPage/bootstrap.min.css">
+    <link rel="stylesheet" href="cssLandingPage/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top main>
+            <a href="#" class="navbar-brand">
+        <img src="images/atrius.png" height="28" alt="Atrius">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a class="nav-link js-scroll-trigger" href="#">&nbsp;&nbsp;&nbsp;&nbsp;Inicio</a>
+                <a class="nav-link js-scroll-trigger" href="#about">Nosotros</a>
+                <a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
+                <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a href="#" class="nav-item nav-link" data-toggle="modal" data-target="#modalLRForm">Acceder o Crear
+                    Cuenta</a>
+            </div>
+        </div>
+
+    </nav>
+    <!--Prueba de paneles para registro-->
+    <!--Formulario de acceso o registro modal-->
+    <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+
+                <!--Modal cascading tabs-->
+                <div class="modal-c-tabs">
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i
+                                    class="fas fa-user mr-1"></i>
+                                Acceder</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i
+                                    class="fas fa-user-plus mr-1"></i>
+                                Crear Cuenta</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panels -->
+                    <div class="tab-content">
+                        <!--Panel 7-->
+                        <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+                            <!--Body-->
+                            <div class="modal-body mb-1">
+                                <div class="md-form form-sm mb-5">
+                                    <i class="fas fa-envelope prefix"></i>
+                                    <input type="email" id="modalLRInput10"
+                                        class="form-control form-control-sm validate">
+                                    <label data-error="wrong" data-success="right" for="modalLRInput10">Tu
+                                        Correo</label>
+                                </div>
+
+                                <div class="md-form form-sm mb-4">
+                                    <i class="fas fa-lock prefix"></i>
+                                    <input type="password" id="modalLRInput11"
+                                        class="form-control form-control-sm validate">
+                                    <label data-error="wrong" data-success="right" for="modalLRInput11">Tu
+                                        contraseña</label>
+                                </div>
+                                <div class="text-center mt-2">
+                                    <a href="index.html">
+                                        <button class="btn btn-info">Acceder <i
+                                                class="fas fa-sign-in ml-1"></i></button>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--Footer-->
+                            <div class="modal-footer">
+                                <div class="options text-center text-md-right mt-1">
+                                    <p>¿No estás registrado? <a href="#" class="blue-text">Crea una cuenta</a></p>
+                                    <p>¿Olvidaste tu <a href="#" class="blue-text">Contraseña</a>?</p>
+                                </div>
+                                <button type="button" class="btn btn-outline-info waves-effect ml-auto"
+                                    data-dismiss="modal">Cerrar</button>
+                            </div>
+
+                        </div>
+                        <!--/.Panel 7-->
+
+                        <!--Panel 8-->
+                        <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+                            <!--Body-->
+                            <div class="modal-body">
+                                <div class="md-form form-sm mb-5">
+                                    <i class="fas fa-envelope prefix"></i>
+                                    <input type="email" id="modalLRInput12"
+                                        class="form-control form-control-sm validate">
+                                    <label data-error="wrong" data-success="right" for="modalLRInput12">Tu
+                                        Correo</label>
+                                </div>
+
+                                <div class="md-form form-sm mb-5">
+                                    <i class="fas fa-lock prefix"></i>
+                                    <input type="password" id="modalLRInput13"
+                                        class="form-control form-control-sm validate">
+                                    <label data-error="wrong" data-success="right" for="modalLRInput13">Tu
+                                        Contraseña</label>
+                                </div>
+
+                                <div class="md-form form-sm mb-4">
+                                    <i class="fas fa-lock prefix"></i>
+                                    <input type="password" id="modalLRInput14"
+                                        class="form-control form-control-sm validate">
+                                    <label data-error="wrong" data-success="right" for="modalLRInput14">Vuelve a
+                                        escribir tu contraseña</label>
+                                </div>
+                                <div class="text-center form-sm mt-2">
+                                    <a href="index.html">
+                                        <button class="btn btn-info">Crear Cuenta <i
+                                                class="fas fa-sign-in ml-1"></i></button>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!--Footer-->
+                            <div class="modal-footer">
+                                <div class="options text-right">
+                                    <p class="pt-1">¿Ya tienes una cuenta? <a href="#" class="blue-text">Acceder</a>
+                                    </p>
+                                </div>
+                                <button type="button" class="btn btn-outline-info waves-effect ml-auto"
+                                    data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                        <!--/.Panel 8-->
+                    </div>
+
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <header class="bg-primary text-white">
+        <div class="background-video-ui background-video--narrow">
+            <video class="background-video___container" autoplay muted loop playinline src="mediaLandingPage/Video/video1.mp4"
+                type="video/mp4">
+            </video>
+            <div class="background-video___content-holder">
+                <div class="background-video___content">
+                    <div class="logo-container">
+                        <img src="imagesLandingPage/logo atrius morado.png" height="300" alt="logo">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="about" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Nosotros</h2>
+                    <p class="lead">AtriUs nació como el proyecto final del Bootcamp de Java Full Stack en Generation.
+                        Nuestro equipo tiene la peculiar característica de estar formado por diferentes perfiles
+                        profesionales, incluyendo las ingenierías: industrial, biomédica y nanotecnología; y,
+                        adicionalmente licenciatura en actuaría.
+                        Todos ajenos al desarrollo de software pero con la misma pasión por aprender a codear y resolver
+                        problemas. Nuestro equipo de desarrollo se compone por Ernesto, Carlos, Juan, Samuel y Javier.
+                    </p>
+                    <img class="team" src="imagesLandingPage/equipo.jpg">
+                    <p class="lead">
+                        De entre la lluvia de ideas para dar soluciones mediante el código, identificamos que en la
+                        industria de la importación y distribución de material de construcción, el tema de la logística
+                        transporte de la mercancía es muy relevante pero siempre difícil de controlar con las
+                        herramientas tradicionales además de generar costos elevados cuando no se gestiona
+                        adecuadamente. AtriUs es nuestra solución, que mediante cálculos sencillos, presenta la
+                        información necesaria para optimizar el transporte y reducir los costos del mismo.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="services" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Nuestro servicio</h2>
+                    <p class="lead">
+                        Nuestra aplicación está pensada para facilitar la planeación de la logística del transporte de
+                        su negocio. Solo es necesario registrar sus clientes y productos para poder empezar a cotizar
+                        cada embarque hasta alcanzar la máxima capacidad con los costos mínimos. La aplicación le
+                        proporcionará de forma gráfica y fácil de usar cuanto le costará trasladar cada unidad de sus
+                        productos.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Contáctanos</h2>
+                    <p class="lead">
+                        IJALTI <br>
+                        Av. Adolfo López Mateos Sur 2077, Jardines de Plaza del Sol, 44510 Guadalajara, Jal. <br>
+                        Teléfono: 33 16 07 46 11 <br>
+                        Correo: contacto@atrius.mx <br>
+
+                    </p>
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14933.212578237131!2d-103.3976524!3d20.6572424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8b565536a85a4d94!2sIJALTI!5e0!3m2!1ses-419!2smx!4v1559240726801!5m2!1ses-419!2smx"
+                            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Atrius 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="scriptsLandingPage/script1.js"></script>
+    <script src="scriptsLandingPage/jquery-3.4.1.min.js"></script>
+    <script src="scriptsLandingPage/popper.min.js"></script>
+    <script src="scriptsLandingPage/bootstrap.min.js"></script>
+</body>
+
+</html>
